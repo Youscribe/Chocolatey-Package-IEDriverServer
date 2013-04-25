@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>IEDriverServer</id>
+    <title>IEDriverServer</title>
+    <version>2.32.3</version>
+    <authors>Chromium and WebDriver teams</authors>
+    <owners>Yann ROBIN</owners>
+    <summary>The InternetExplorerDriver is a standalone server which implements WebDriver's wire protocol</summary>
+    <description>The InternetExplorerDriver is a standalone server which implements WebDriver's wire protocol. This driver has been tested with IE 6, 7, 8 and 9 on appropriate combinations of XP, Vista and Windows 7.
+
+The driver supports running 32-bit and 64-bit versions of the browser. The choice of how to determine which "bit-ness" to use in launching the browser depends on which version of the IEDriverServer.exe is launched. If the 32-bit version of IEDriverServer.exe is launched, the 32-bit version of IE will be launched. Similarly, if the 64-bit version of IEDriverServer.exe is launched, the 64-bit version of IE will be launched.</description>
+    <projectUrl>https://code.google.com/p/chromedriver/</projectUrl>
+    <tags>IEDriverServer IEDriver ie internet explorer webdriver selenium</tags>
+    <copyright></copyright>
+    <licenseUrl>https://code.google.com/p/chromedriver/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://github.com/__CHOCO_PKG_OWNER_REPO__/raw/master/ChromeDriver/ChromeDriver.gif</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
