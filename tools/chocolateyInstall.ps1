@@ -1,8 +1,8 @@
 ﻿#NOTE: Please remove any commented lines to tidy up prior to releasing the package, including this one
 
 $packageName = 'IEDriverServer' # arbitrary name for the package, used in messages
-$url = 'https://selenium.googlecode.com/files/IEDriverServer_Win32_2.32.3.zip' # download url
-$url64 = 'https://selenium.googlecode.com/files/IEDriverServer_x64_2.32.3.zip' # 64bit URL here or just use the same as $url
+$url = 'http://selenium-release.storage.googleapis.com/2.49/IEDriverServer_Win32_2.49.0.zip' # download url
+$url64 = 'http://selenium-release.storage.googleapis.com/2.49/IEDriverServer_x64_2.49.0.zip' # 64bit URL here or just use the same as $url
 $validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 
 # download and unpack a zip file
